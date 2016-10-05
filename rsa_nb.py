@@ -18,9 +18,9 @@ def criptare():
 	testo = raw_input('Inserisci un testo da criptare:').lower()
 	print 'testo:',testo
 
-	p = input('Inserisci numero primo P > 1:')
+	p = input('Inserisci numero primo P > 1 (meglio se >10):')
 	print 'p:',p
-	q = input('Inserisci numero primo Q > 1:')
+	q = input('Inserisci numero primo Q > 1 (meglio se >10):')
 	print 'q:',q
 	n = p * q   # calcolo il modulo n
 	z = (p-1)*(q-1) # calcolo la funzione di Eulero
@@ -60,9 +60,9 @@ def decriptare():
 	testo = raw_input('Inserisci un testo da decriptare:').lower()
 	print 'testo criptato (i numeri separati dallo spazio, es: 52 34,ecc.):',testo
 
-	p = input('Inserisci numero primo P > 1:')
+	p = input('Inserisci numero primo P > 1 (meglio se >10):')
 	print 'p:',p
-	q = input('Inserisci numero primo Q > 1:')
+	q = input('Inserisci numero primo Q > 1 (meglio se >10):')
 	print 'q:',q
 	n = p * q
 	z = (p-1)*(q-1)
