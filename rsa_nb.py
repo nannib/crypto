@@ -38,7 +38,7 @@ def criptare():
 	for d in range(3, z, 2): 
 	# cerco l'esponente privato d, tale che (d*e)-1 sia divisibile per z
 	# la funzione range parte da 3 e aggiunge 2 unita' fino a raggiungere il numero z ma non includendolo.
-	# pari * dispari = pari e quindi pari / pari = pari ma ci serve un quoziente che non sia intero, quindi d deve essere dispari.
+	# pari * dispari = pari e quindi pari / pari e quindi il resto non può mai essere 1 pertanto d deve essere dispari.
 		if d * e % z == 1:
 			break
 	else:
@@ -84,7 +84,7 @@ def decriptare():
 	for d in range(3, z, 2): 
 	# cerco l'esponente privato d, tale che (d*e)-1 sia divisibile per z
 	# la funzione range parte da 3 e aggiunge 2 unita' fino a raggiungere il numero z ma non includendolo
-	# pari * dispari = pari e quindi pari / pari = pari ma ci serve un quoziente che non sia intero, quindi d deve essere dispari.
+	# pari * dispari = pari e quindi pari / pari e quindi il resto non può mai essere 1 pertanto d deve essere dispari.
 		if d * e % z == 1:
 			break
 	else:
