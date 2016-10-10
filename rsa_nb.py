@@ -28,6 +28,8 @@ def criptare():
 	i=0
 	e=0
 	# trovo l'esponente pubblico e che NON ha fattori comuni con z, quindi  z mod e > 0
+	# tale che sia primo con (p-1)(q-1) quindi non deve avere fattori primi in comune
+	#e deve essere dispari, dato che (p-1)(q-1) non puo' essere primo poiche' e' pari.
 	while r1 == 0 :
 		i = i+1
 		r1 = z % i
@@ -36,6 +38,7 @@ def criptare():
 	for d in range(3, z, 2): 
 	# cerco l'esponente privato d, tale che (d*e)-1 sia divisibile per z
 	# la funzione range parte da 3 e aggiunge 2 unita' fino a raggiungere il numero z ma non includendolo.
+	# pari * dispari = pari e quindi pari / pari = pari ma ci serve un quoziente che non sia intero, quindi d deve essere dispari.
 		if d * e % z == 1:
 			break
 	else:
@@ -70,6 +73,8 @@ def decriptare():
 	i=0
 	e=0
 	# trovo l'esponente pubblico e che NON ha fattori comuni con z, quindi  z mod e > 0
+	# tale che sia primo con (p-1)(q-1) quindi non deve avere fattori primi in comune
+	#e deve essere dispari, dato che (p-1)(q-1) non puo' essere primo poiche' e' pari.
 	while r1 == 0 :
 		i = i+1
 		r1 = z % i
@@ -78,7 +83,8 @@ def decriptare():
 
 	for d in range(3, z, 2): 
 	# cerco l'esponente privato d, tale che (d*e)-1 sia divisibile per z
-	# la funzione range parte da 3 e aggiunge 2 unita' fino a raggiungere il numero z ma non includendolo.
+	# la funzione range parte da 3 e aggiunge 2 unita' fino a raggiungere il numero z ma non includendolo
+	# pari * dispari = pari e quindi pari / pari = pari ma ci serve un quoziente che non sia intero, quindi d deve essere dispari.
 		if d * e % z == 1:
 			break
 	else:
