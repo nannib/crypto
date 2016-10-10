@@ -26,7 +26,8 @@ print 'p =',p,'q =',q
 k=0
 f=(p-1)*(q-1)
 r2=1
-while r2 != 0 :
+while r2 != 0 : # devo trovare (e*d) -1 / f = 1  quindi (e*d)-1 = f quindi e*d=f+1 quindi d=(f+1)/e
+# pertanto devo trovare un numero tra 1 ed e che moltiplicato per f e sommato ad 1 sia divisibile per e
 	k=random.randint(1,e)
 	r2=(f*k+1) % e
 #print 'k=',k
