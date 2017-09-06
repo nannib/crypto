@@ -9,12 +9,11 @@ import hashlib
 import time
 
 def main():
-	global genesis,p,s,t,q,indx,phash,t0,t1,t2,t3,t4,tb,vb,block,timestamp
+	global p,s,t,q,indx,phash,t0,t1,t2,t3,t4,tb,vb,block,timestamp
 	
-	genesis=0
 	t0 = int(time.time())
 	g = "ciao sono il contenuto del blocco di generazione"
-	p = raw_input('Inserisci valore del primo blocco:')
+	p = raw_input('Inserisci valore del primo blocco:') # es. una parola, dei numeri, ecc.
 	t1 = int(time.time())
 	s = raw_input('Inserisci valore del secondo blocco:')
 	t2 = int(time.time())
