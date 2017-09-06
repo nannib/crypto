@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python
 # blockchain.py
 # Simulatore di blockchain
 # programma ad uso didattico - only for didactic using
