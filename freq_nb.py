@@ -43,7 +43,7 @@ for c in alfabeto:
 	d=collections.Counter(decriptato)
 	d=str(d)
 	d=d.replace("Counter({'","")
-	d=filter(lambda x: x.isalpha(), d)
+	d=filter(lambda x: x.isalpha(), d) # filtra solo i caratteri
 	d=d.replace("'","")
 	d=d.replace(": ","")
 	d=d.replace(", ","")
