@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python
 # RSA_NB.py
 # Criptare e decriptare col cifrario RSA 
 # programma ad uso didattico - only for didactic using
