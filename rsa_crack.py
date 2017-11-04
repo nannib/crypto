@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python
 # RSA_CRACK.py
 # Cracking RSA key - finding the two prime numbers those make the key
 # finding the private exponent
