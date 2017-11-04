@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python
 # sha256_500k.py
 # calcolo del tempo per 500000 sha256
 # 
