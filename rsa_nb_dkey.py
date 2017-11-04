@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python
 # RSA_NB_dkey.py
 # Criptare e decriptare col cifrario RSA con input delle due chiavi Kpub e Kpriv
 # programma ad uso didattico - only for didactic using
