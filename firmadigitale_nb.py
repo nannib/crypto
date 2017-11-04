@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python
 # firmadigitale_nb.py
 # Simulatore di firma digitale
 # programma ad uso didattico - only for didactic using
