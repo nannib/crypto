@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python
 # VIGENERE_NB.py
 # Criptare e decriptare col cifrario di Vigenere
 # programma ad uso didattico - only for didactic using
