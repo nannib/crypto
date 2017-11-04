@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python
 # by Nanni Bassetti - http://www.nannibassetti.com - digitfor@gmail.com
 
 import math
