@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python
 # VIGENERE_stretched.py
 # Criptare e decriptare col cifrario di Vigenere col key stretching
 # il programma serve solo a capire i principi base dell key stretching - the program intents only to explain the basic rules of key stretching
