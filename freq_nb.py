@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python
 # freq_nb.py
 # Frequency Match Score calculator 
 # programma ad uso didattico - only for didactic using
